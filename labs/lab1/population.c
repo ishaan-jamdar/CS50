@@ -19,7 +19,7 @@ int main(void)
         end = get_int("End size: ");
     }
     while (end < start);
-    // Calculates the number of years until we end is reached by caclulating yearly and adding a count to years
+    // Calculates the number of years until end is reached by caclulating yearly and adding a count to years
     while (start < end)
     {
         start = start + (start / 3) - (start / 4);

@@ -9,10 +9,13 @@ int main(void)
     do
     {
         n = get_int("Width: ");
+    }
+    while (n < 1);
+    do
+    {
         h = get_int("Height: ");
     }
-    while (n < 1 | h < 1);
-    
+    while (h < 1);
     //Nested loop, outer loop creates a new row each time the width has been completed based on the height input
     for (int i = 0; i < h; i++)
     {

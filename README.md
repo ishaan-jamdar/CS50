@@ -1,2 +1,2 @@
 # CS50
-Work from the CS50 open courseware.
+Work from Harvard's CS50 open courseware.
